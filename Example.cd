@@ -1,0 +1,23 @@
+using UnityEngine;
+
+public class Example : MonoBehaviour
+{
+
+    void Start()
+    {
+        // 1 - Add
+        // Add "RegisterObject" Component On To Your Object
+
+        // 2 Usage : 
+
+        /// Game Object
+        obj.Get("myObject");
+        /// Component Of A Game Object
+        obj.GetI("myObject"); // Image
+        obj.GetB("myObject"); // Button
+        obj.GetIN("myObject"); // Input Field
+
+        // U Can Add Or Change This MeThos On "obj" Script
+    }
+}
+  
