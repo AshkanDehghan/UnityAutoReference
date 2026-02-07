@@ -1,0 +1,22 @@
+using UnityEngine;
+
+
+public class Registerobject : MonoBehaviour
+{
+
+
+    public bool Hidden = false;
+    private void Awake()
+    { 
+           obj.Set(gameObject);
+ 
+    }
+
+    private void Start()
+    {
+        if (Hidden)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+}
