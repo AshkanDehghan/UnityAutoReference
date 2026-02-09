@@ -1,14 +1,15 @@
 # AutoReference
 Simple Auto Service Locator For Reference Objects In Unity Without Drag And Drop OR Find . 
 
-## Usage
+## Install
 - 1 Add Release Unity Package To Your Project
 
 - 2 Add RegisterObject Component To Your Object
+- 
+## Usage
+- Get Object With obj.Get("objectname");
 
-- 3 Get Object With obj.Get("objectname");
-
-- Or Get A component obj.Get<Image>("objectname");
+- Get A component of Object obj.Get<Image>("objectname");
 
 ## Note
 - Object Must Be Active
