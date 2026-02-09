@@ -8,18 +8,7 @@ Simple Auto Reference Objects In Unity Without Drag And Drop OR Find .
 
 - 3 Get Object With obj.Get("objectname");
 
-- Or Get A component of GameObject like Button With  obj.GetB("objectname");
-  
-## Component Methods
-- You Can Add Or Change This Methods In obj.cs
-
-- obj.GetB("objectname"); Button
-  
-- obj.GetI("objectname"); Image
-  
-- obj.GetIn("objectname"); InputField
-  
-- .....
+- Or Get A component obj.Get<Image>("objectname");
 
 ## Note
 - Object Must Be Active
