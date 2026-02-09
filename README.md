@@ -9,7 +9,7 @@ Simple Auto Service Locator For Reference Objects In Unity Without Drag And Drop
 ## Usage
 - Get Object With obj.Get("objectname");
 
-- Get A component of Object obj.Get&ltImage&gt("objectname");"
+- Get A component of Object obj.Get&lt;Image&gt;("objectname");"
 
 ## Note
 - Object Must Be Active
