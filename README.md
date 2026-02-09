@@ -1,5 +1,5 @@
 # AutoReference
-Simple Auto Reference Objects In Unity Without Drag And Drop OR Find . 
+Simple Auto Service Locator For Reference Objects In Unity Without Drag And Drop OR Find . 
 
 ## Usage
 - 1 Add Release Unity Package To Your Project
